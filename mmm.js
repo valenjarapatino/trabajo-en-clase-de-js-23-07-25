@@ -313,7 +313,7 @@ function imprimirListaYTotal(lista) {
     totalMercado += subtotalItem;
     console.log(`Producto: ${item.nombre} | Valor: ${item.valor} | Cantidad: ${item.cantidad} | Subtotal: ${subtotalItem}`);
   });
-  console.log("------------------------");
+  console.log("-------------------");
   console.log(`Total del mercado: ${totalMercado}`);
 }
 
